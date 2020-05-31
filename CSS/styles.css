@@ -1,0 +1,199 @@
+
+.navbar-nav a:hover
+{
+    color: orangered!important;
+}
+
+.navbar{
+    margin: 0;
+    padding: 2px;
+    background-color: #e9eff4;
+    border-bottom: 1px solid black;
+}
+.navbar-nav a{
+    font-size: 16px;
+    margin-left: 6px;
+    margin-right: 6px;
+    color: #007bff!important; 
+}
+
+
+
+
+/* ----ABOUT US SECTION---- */
+
+#about{
+    margin-top: 100px;
+   
+}
+#but{
+    
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.bars{
+    margin-top: 36px;
+    margin-bottom: 20px;
+}
+.about-content{
+    padding-top: 20px;
+    text-align: justify;
+    font-weight: 600;
+    color: gray;
+}
+.bars p{
+    margin-bottom: 6px;
+    font-weight: 600;
+    margin-top: 30
+}
+.progress-bar{
+    border-radius: 16px;
+}
+.progress{
+     border-radius: 16px;
+}
+#about-usss-h2{
+    color: #007bff;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+}
+
+
+/*Map*/
+.map-container-3{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height: 0 px;
+}
+.map-container-3 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+
+/*footer*/
+.footer {
+  background-color: #007bff;
+  margin: 20px auto;
+  padding: 20px 0px; }
+
+.foot-list ul a {
+    color: white;
+    font-size: 18px;
+    
+}
+
+
+/* the promo */
+#promo{
+    
+     margin-top: 10;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.67)),url("../img/tutttt.jpg");
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #efefef !important;
+    text-align: center;
+    padding: 50px 20px;
+    font-family: sans-serif;
+    font-size: 58px;
+}
+#promo p{
+    margin-bottom: 35px;
+    margin-top: 0;
+}
+
+/* the promo2 */
+#promo2{
+    
+     margin-top: 10;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.67)),url("../img/red.jpg");
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #efefef !important;
+    text-align: center;
+    padding: 50px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-size: 58px;
+}
+#promo2 p{
+    margin-bottom: 35px;
+    margin-top: 0;
+}
+
+/* the promo3 */
+#promo3{
+    
+     margin-top: 10;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.67)),url("../img/dol.jpg");
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #efefef !important;
+    text-align: center;
+    padding: 50px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-size: 58px;
+}
+#promo3 p{
+    margin-bottom: 35px;
+    margin-top: 0;
+}
+
+/* the promo4 */
+#promo4{
+    
+     margin-top: 10;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.67)),url("../img/messy+jungle.jpg");
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #efefef !important;
+    text-align: center;
+    padding: 50px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+#promo4 h1{
+    margin-bottom: 35px;
+    margin-top: 0;
+    font-family: sans-serif;
+    font-size: 58px;
+}
+
+
+#promo4p{
+    margin-bottom: 35px;
+    margin-top: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+
+
+
+@media screen and (max-width: 480px){
+    
+    #coverr{
+        height: 430px;
+
+    }
+
+    .carousel-caption{
+    
+    top: 30%;
+    bottom: initial!important;
+}
